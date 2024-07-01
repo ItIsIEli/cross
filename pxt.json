@@ -1,0 +1,28 @@
+{
+    "name": "Chicken Run v1.0",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.5.2",
+        "tag": "v0.5.2",
+        "commits": "https://github.com/Microsoft/pxt-arcade/commits/c7921537af65fd49fcfde77fcc624cea6b8558a0",
+        "target": "1.12.53",
+        "pxt": "5.4.5",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}

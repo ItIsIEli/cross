@@ -1045,3 +1045,39 @@ anim4.addAnimationFrame(img`
     . . . . . e 4 . . . . . . . . . 
     . . . . e . . 4 . . . . . . . . 
     `)
+forever(function () {
+    carSprite.x += 1
+    carSprite2.x += -2
+    carSprite3.x += -1
+    carSprite4.x += 2
+    carSprite6.x += 1.25
+    carSprite7.x += -1.2
+    carSprite8.x += 1
+    if (carSprite.x > 70 || carSprite5.x > 40) {
+        carSprite5.x += 1
+    }
+    if (carSprite.x > 167) {
+        carSprite.setPosition(0, 108)
+    }
+    if (carSprite2.x < 0) {
+        carSprite2.setPosition(162, 95)
+    }
+    if (carSprite3.x < -10) {
+        carSprite3.setPosition(165, 89)
+    }
+    if (carSprite4.x > 167) {
+        carSprite4.setPosition(0, 64)
+    }
+    if (carSprite5.x > 167) {
+        carSprite5.setPosition(0, 109)
+    }
+    if (carSprite6.x > 167) {
+        carSprite6.setPosition(0, 50)
+    }
+    if (carSprite7.x < 0) {
+        carSprite7.setPosition(160, 36)
+    }
+    if (carSprite8.x > 160) {
+        carSprite8.setPosition(-10, 31)
+    }
+})
